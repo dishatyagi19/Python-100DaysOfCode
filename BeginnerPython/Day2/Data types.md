@@ -1,4 +1,4 @@
-#Quick summary of what we learned today:
+# Quick summary of what we learned today:
 
 ### 1️⃣ Subscripting:
 
@@ -7,7 +7,7 @@ print("Hello"[0])   #get element at index 0 = H
 print("Hello"[-1])   #get element at index -1 = o
 ```
 ↳ H  
-   o
+  o
 
 ### 2️⃣ Primitive data types:
 
@@ -31,7 +31,7 @@ print(3.14)
 ```
 ↳ 3.14
 
--Boolean
+- Boolean
 ```
 print(True)
 print(False)
@@ -148,7 +148,7 @@ print( a)
 ```
 ↳ 2.5
 
-### 8️⃣ f Strings:
+### 8️⃣ f String:
 
 ```
 age = 12
