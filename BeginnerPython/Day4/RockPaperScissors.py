@@ -5,7 +5,7 @@ print("Game : Rock, Paper, Scissors")
 human_choice = int(input("Choose your option: Type 0 for Rock, 1 for Paper, 2 for Scissors.\n"))
 
 if human_choice >=3 or human_choice < 0:
-    print("Computer Won!")
+    print("You choose an invalid input. Result : Computer Won!")
 else:    
     if human_choice == 0:
         print("""
