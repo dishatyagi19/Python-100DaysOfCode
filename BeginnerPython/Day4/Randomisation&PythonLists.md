@@ -14,8 +14,8 @@ print(random.random() * 10)   #we increased the range of generated numbers - 0*1
 print(random.uniform(1, 10))   #prints random float numbers as well but this time you can explicitly give the range and can have the second number be included in the range
 ``` 
 
-*Module : Using modules can help us import required functions, variables, etc. from different packages or files.*  
-Eg:-
+*Module : Using modules can help us import required functions, variables, etc. from different packages or files. Eg:-*
+
 ```
 file1 : temp_file.py :-
 a = 10
@@ -130,7 +130,7 @@ Traceback (most recent call last):
   File "<main.py>", line 7, in <module>  
 IndexError: list index out of range
 
-to resolve this, remember to -1 from len of list:-
+*To resolve this, remember to -1 from len of list:-*
 
 ```
 import random
@@ -140,15 +140,6 @@ friends = ["Pip", "Ravi", "Andy", "Sal", "Emanuel"]
 num = random.randint(0, len(friends)-1)
 
 print(friends[num])
-```
-
-```
-fruits = ["Strawberries", "Grapes", "Peaches", "Cherries", "Nectarines", "Pears", "Apples", "Blackberries", "Blueberries"]
-vegetables = ["Spinach", "Kale, Collard, and Mustard Greens", "Potatoes"]
-
-dirty_dozen = [fruits, vegetables]
-
-print(dirty_dozen)
 ```
 
 ### 5️⃣ Nested lists:
@@ -170,26 +161,5 @@ print(dirty_dozen[1][1])
 ['Spinach', 'Kale, Collard, and Mustard Greens', 'Potatoes']  
 Strawberries  
 Kale, Collard, and Mustard Greens
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
